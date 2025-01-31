@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width">
+  <title>essaye de codage</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ <h1> Le toit du monde </h1>
+  <img height="300" src="./images/everest.webp" alt="image de l'Everest" style="margin-left:1cm"/>
+  <h2>L'Everest, la montagne la plus haute du monde </h2>
+
+
+  <p>L'Everest est une montagne située dans la chaîne de l'Himalaya, à la frontière entre le Népal et la Chine. L'Everest s'élève à la frontière entre la ville-préfecture de Shigatsé dans la région autonome du Tibet en Chine et le district de Solukhumbu dans la province de Koshi au Népal. Il culmine à 8 848 mètres d'altitude1 dans le Mahalangur Himal, un massif de l'Himalaya, ce qui en fait le point culminant de l'Asie et le plus haut des sept sommets. </p>
+
+  <p>
+      Il est aperçu par des Européens pour la première fois en 1847 puis, après quelques années d'observations et de calculs, il est identifié comme le plus haut sommet du monde. Son altitude est établie à 8 849 mètres. Cette caractéristique lui vaut d'être baptisé de son nom actuel par les Occidentaux en 1865 en l'honneur de George Everest, arpenteur général des Indes orientales de 1830 à 1843, et, dès les années 1920, de susciter l'intérêt des alpinistes qui se lancent à l'assaut de ses faces. Plusieurs expéditions, en particulier britanniques, se succèdent depuis le versant nord au Tibet. Toutefois, les conditions météorologiques extrêmes font leurs premières victimes, parmi lesquelles George Mallory et Andrew Irvine, en 1924, dont on ne saura probablement jamais avec certitude s'ils ont atteint le sommet. En 1950, le Népal autorise l'accès à la montagne depuis le sud offrant des possibilités d'ascension par l'arête Sud-Est, moins périlleuse. Finalement, trois ans plus tard, le 29 mai 1953, Edmund Hillary et Tensing Norgay deviennent les premiers hommes à atteindre le sommet de l'Everest de manière certaine. Dès lors, les exploits en tous genres s'enchaînent, alimentant les fantasmes populaires ; mais, en 1996, une série d'accidents mortels vient rappeler les dangers liés à la montagne, portant de nos jours à plus de 200 le nombre de victimes. Ainsi, plus de 14 000 alpinistes ont tenté l'ascension depuis 1922 et plus de 4 000 l'ont réussie, bien aidés, pour la majorité d'entre eux, par les porteurs sherpas et l'utilisation de bouteilles d'oxygène.
+  </p>
+  <br/><br/> 
+  <h3> Les 3 montagnes les plus hautes du monde </h3>
+                                                                         
+
+  <table border="5">
+    <tr>
+      <th>Nom montagne</th>
+      <th>Hauteur</th>
+      <th>Pays</th>
+      <th>taux de mortalité</th>
+    </tr>
+    <tr>
+      <td>Mont Everest</td>
+      <td>8848 mètres</td>
+      <td>frontière Chine, Népal</td>
+      <td>6,5%</td>
+    </tr>
+    <tr>
+      <td>K2</td>
+      <td>8611 mètres</td>
+      <td>frontière Pakistan,Chine</td>
+      <td>25%</td>
+    </tr>
+    <tr>
+      <td>Kangchenjunga</td>
+      <td>8586 mètres</td>
+      <td>frontière indo-népalaise</td>
+      <td>12,7%</td>
+    </tr>
+  </table>
+  <br/>
+  <hr/>
+  <br/>
+  <a href="https://fr.wikipedia.org/wiki/Everest">voir article Everest</a>
+ <h4>Autres articles intéresants</h4>
+  <ul>
+    <li><a href=https://fr.wikipedia.org/wiki/K2>K2</a></li>
+    <li><a href=https://fr.wikipedia.org/wiki/Kangchenjunga>Kangchenjunga</a></li>
+    <li><a href=https://fr.wikipedia.org/wiki/Secours_en_montagne>Dangers de la montagne</a></li>
+  </ul>
+</body>
+</html>
+
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {text-align:center;
+color:blue;
+font-size:45pt;
+}
+
+h2 {
+font-weight:bold;
+font-size:25pt;
+font-family:sans-serif;
+margin-left:1cm;
+color:lightblue;
+}
+
+p {
+font-size:15pt;
+font-weight:light;
+margin-left:1cm; 
+text-align:justify;
+font-family:sans-serif;
+line-height:25pt;
+}
+
+h3 {
+font-size:16pt;
+font-weight:bolder;
+color:salmon;
+}
+
+table {
+font-style:italic;
+font-size:13pt;
+font-family:serif;
+background-color:lightblue;
+}
+
+th {
+color:black;
+}
+
+tr {
+color:red;
+}
+
+h4 {
+font-size:18pt;
+color:coral;
+}
+
+li {
+font-style:italic;
+}
+
+a {
+font-weight:bold;
+font-size:20pt;
+font-style:italic;
+}
