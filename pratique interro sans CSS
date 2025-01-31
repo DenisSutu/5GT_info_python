@@ -1,0 +1,47 @@
+<!--travail réalisé par Sutu Denis et Nathan Nguyen-->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ <p>L'aïkido est un art martial japonais (budo), fondé par Morihei Ueshiba ōsensei entre 1925 et 1969.</p>
+
+<p>L'aïkido a été officiellement reconnu par le gouvernement japonais en 1940 sous le nom d’aikibudō1 et sous le nom aikido en 1942 donné par la « Dai Nippon Butoku Kai », organisme gouvernemental visant à regrouper tous les arts martiaux japonais pendant la guerre. Il a été créé à partir de l'expérience que son fondateur avait de l'enseignement des koryu (écoles d'arts martiaux anciennes), essentiellement l'aikijutsu de l'école daitō ryū et le kenjutsu2 (art du sabre japonais). L'aïkido est né de la rencontre entre ces techniques de combat et une réflexion métaphysique de Morihei Ueshiba sur le sens de la pratique martiale à l'ère moderne. </p>
+  <h1>1. Historique de l'aïkido</h1>
+  
+  <p>Comme la plupart des budō modernes (judo, karaté, kendo…), l'aïkido est l'héritier des arts martiaux développés durant les périodes de guerre, qui furent modifiés lors des périodes de paix (ère Tokugawa) et de la disparition de la classe des samouraïs (restauration de Meiji)4.</p>
+  
+  <p>Morihei Ueshiba était un fervent pratiquant shinto, il fut également initié à la religion Ōmoto-kyō, au bouddhisme Shingon et au Kototama. Il avait par ailleurs une expérience réelle de la guerre : il participa à la Guerre russo-japonaise, et nombre de ses élèves moururent durant la Seconde Guerre mondiale. Son parcours, emblématique d'une authentique réalisation spirituelle, passant de techniques guerrières visant à tuer rapidement un adversaire à un art visant l'accomplissement de l'être humain, le conduisit à recevoir la révélation de nouvelles techniques martiales, et à devoir nous transmettre l'« art de paix », dont le but serait d'améliorer l'Homme, d'un point de vue physique mais surtout comportemental (tolérance et paix) et spirituel.</p>
+  <img src="./images/Morihei_Ueshiba_1939.jpg" alt="Morihei Ueshiba" height="200"/>
+  
+  <h1>2. Le terme aïkido</h1>
+  
+  <h2>2.1 Concordance</h2>
+  
+  <p>
+En effet, le terme « concordance » est plus près du sens japonais original de l’aiki comme étant une action de rencontre (explicité dans la composition du kanji) que le terme « harmonisation ». L’« harmonie » peut être le résultat souhaité de la pratique de l'aïkido, mais on ne fait pas d'aïkido sans faire concorder les énergies. Comme le fait remarquer Olivier Gaurin6, l'aïkido, par la concordance (« mettre les cœurs ensemble »), amène à un résultat où il sera possible de communiquer avec l'« adversaire », chose impossible si on a dans l'idée de l'harmoniser (« amener à une entente, se mettre d'accord », ce qui peut être impossible) ou de le détruire. Un autre problème soulevé est qu'« harmonie » implique souvent une notion d'amitié ou de paix, ce qui est superflu (on ne peut pas être aimé par tout le monde, même si l'on aime soi-même tout le monde)6. Par exemple, les Japonais utilisent le mot wagō (和合) pour « harmonie », terme composé de « paix » et de « concorder » : en concordant vers la paix, on crée l'harmonie. </p>
+  
+  <h2>2.2 Amour</h2>
+  <p>Cependant, d’après le fils de Morihei Ueshiba, Kisshomaru Ueshiba, tout l’accent de l’Aïkido était mis « sur sa nature essentielle : l’amour. » Le traducteur souligne d’ailleurs que « le premier signe de l’Aïkido « aï » qui signifie harmonie se lit de la même façon que le signe « amour ». Morihei insista de plus en plus sur l’imbrication de ces deux sens. »7 Kisshomaru Ueshiba rapporte aussi les propos du fondateur au cours d'une visite à Hawaï : « Je crois que l'aiki - qui naît de l'étude des arts martiaux - peut unir les peuples et donne au Monde son harmonie, dans le véritable esprit du budo, en le baignant d'une force immuable d'Amour.»</p>
+  <h1>3. Pratique de l'aïkido</h1>
+  <p>L'aïkido est pratiqué par des femmes et des hommes de toutes tailles et âges. Le but de la pratique est de s'améliorer, de progresser (techniquement, physiquement et mentalement) dans la bonne humeur (le fondateur Morihei Ueshiba insistait beaucoup sur ce point). Ne sont montrées que des techniques respectant le partenaire10,6,11. La complexité de cet art demande un haut niveau de pratique dans son utilisation en combat réel. S'il est vrai que les techniques de base reposaient sur des pratiques académiques classiques et étaient adaptées à un style combatif, il reste que l’aïkido n’est pas une pratique qui vise en premier à la bagarre de rue mais un art martial qui prépare autant physiquement (souplesse, rapidité, musculature), mentalement (rester calme en toutes circonstances) que techniquement (respecter la distance de sécurité, trouver l'ouverture, se placer, gérer plusieurs attaques simultanées) au combat en toute situation. Si l'aïkido est une activité physique, voire sportive, il dépasse ce point de vue en intégrant une vision de l’Homme12.</p>
+  <h1>4. Composantes d’un mouvement</h1>
+  <ul>
+    <li>l'absorption : au moment où l'énergie de l'attaque de aite se libère (l'attaque part), tori bouge22 pour modifier la cible ou la trajectoire de l'attaque. C'est dans cette phase que tori s'approprie l'attaque de aite au lieu de la subir.</li>
+    <li>L'entrée : tori s'esquive par un pivot, avançant sur son côté, etc. Les possibilités sont nombreuses. Il peut également attaquer pour obliger aite à une réaction de défense et exploiter cette dernière par la suite.</li>
+    <li> Le déséquilibre : par ses déplacements et mouvements tori dirige, entretient et amplifie le déséquilibre23 en utilisant l'énergie cinétique et la force de celui-ci.</li>
+    <li> L'immobilisation ou la projection : tori projette ou immobilise aite. L'immobilisation s'obtient à l'aide d'une clef (au bras, au poignet…). La projection s'obtient à l'aide de différents contrôles24 au niveau du corps de aite (tête, coude, poignet…) privant ou dissuadant ce dernier de toute autre issue que la chute au sol.</li>
+  
+  </ul>
+  <h1>5. Pour en savoir plus</h1>
+  <a href="https://www.ffabaikido.fr/fr/">Fédération française d'Aikido  </a>
+</body>
+  
+
+</html>
