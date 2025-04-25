@@ -17,4 +17,5 @@ def is_answer_valid(answer):
   else:
      valid=False
   return valid
-bonjour()
+if __name__=="__main__":
+    bonjour()
