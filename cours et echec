@@ -1,0 +1,78 @@
+def menu():
+   print("Pour calculer la moyenne d'un cours : 1")
+   print("Pour savoir s'il y a une évaluation en échec dans un cours : 2")
+   print("Pour avoir la moyenne pondérée d'un cours : 3")
+   print("Pour quitter : 4")
+
+   choix=input("Quel est votre choix ? ")
+   choix=int(choix)
+  
+   if choix==1:
+      moyenne_cours()
+   elif choix==2:
+      eval_echec_cours()
+   elif choix==3:
+      moyenne_ponderee_cours()
+   elif choix==4:
+      quit()
+   else:
+      print("Veuillez répondre par 1,2,3 ou 4")
+      menu()
+     
+def quit():
+  print("Au revoir")
+
+def moyenne_hist():
+    total=0
+    for point in hist:
+      total=total+point
+    moyenne=total/len(hist)
+    return moyenne
+
+def moyenne_math4():
+    total=0
+    for point in math4:
+      total=total+point
+    moyenne=total/len(math4)
+    return moyenne
+
+def moyenne_sc5():
+    total=0
+    for point in sc5:
+      total=total+point
+    moyenne=total/len(sc5)
+    return moyenne
+
+def moyenne_ponderee_cours():
+   moyenne_ponderee_cours=(moyenne_hist()*2+moyenne_math4()*4+moyenne_sc5()*5)/11
+   print("La moyenne pondérée des cours est de : ",moyenne_ponderee_cours)
+
+def eval_echec_cours():
+  
+    nb_echec_hist=0
+    for point in hist:
+      if point<10:
+          nb_echec_hist=nb_echec_hist+1
+
+
+    nb_echec_math4=0
+    for point in math4:
+      if point<10:
+          nb_echec_math4=nb_echec_math4+1
+
+
+    nb_echec_sc5=0
+    for point in hist:
+      if point<10:
+          nb_echec_sc5=nb_echec_sc5+1
+        
+   print("Il y a ",nb_echec-hist,"échecs en histoire")
+   print("Il y a ",nb_echec-math4,"échecs en math4")
+   print("Il y a ",nb_echec-sc5,"échecs en sc5")
+   menu()
+  
+if __name__ == "__main__":
+   hist=[0,12,18,11,20] #liste des notes d'histoire sur 20
+   math4=[15,17,14] #liste des notes de maths sur 20
+   sc5=[20,9,14,16,11,9,5,17,18] #liste des notes de science sur 20
+   menu()
